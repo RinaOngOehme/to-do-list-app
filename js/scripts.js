@@ -1,6 +1,6 @@
 function newItem() {
   //Add a new item to the list:
-  let li = $("<li></li>");
+  let li = $("<li id='inputValue'></li>");
   let inputValue = $('#input').val();
   li.append(inputValue);
 
@@ -20,7 +20,7 @@ function newItem() {
 
   //remove an item
   $("crossOutButton").on('click', function() {
-        li.remove();
+   $(this).parent().remove();
       });
   //Cross an item out:
   function crossOut() {
