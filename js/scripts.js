@@ -1,32 +1,36 @@
+//jshint esversion:6
+/* eslint-env jquery */
 function newItem() {
   //Add a new item to the list:
-  let li = $("<li id='inputValue'></li>");
+  let li = $('<li id="inputValue"></li>');
   let inputValue = $('#input').val();
   li.append(inputValue);
 
-  let crossOutButton = $("<crossOutButton></crossOutButton>");
-  crossOutButton.append(document.createTextNode("X"));
+  let crossOutButton = $('<crossOutButton></crossOutButton>');
+  crossOutButton.append(document.createTextNode('X'));
   li.append(crossOutButton);
 
-  li.on("dblclick", function crossOut() {
-		li.toggleClass("strike");
-	});
+  li.on('dblclick', function crossOut() {
+    li.toggleClass('strike');
+  });
 
-  if (inputValue === "") {
-    alert("You must write something!");
+  if (inputValue === '') {
+    alert('You must write something!');
   } else {
-    $("#list").append(li);
-  };
+    $('#list').append(li);
+  }
 
   //remove an item
-  $("crossOutButton").on('click', function() {
-   $(this).parent().remove();
-      });
+  $('crossOutButton').on('click', function () {
+          $(this).parent().remove();
+        });
+
   //Cross an item out:
   function crossOut() {
-    li.toggleClass("strike");
-	  }
+    li.toggleClass('strike');
+    return crossOut;
+  }
 
   //sort list
-   $("#list").sortable();
+  $('#list').sortable();
 }
