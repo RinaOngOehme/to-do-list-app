@@ -19,9 +19,8 @@ To build a small to-do-list application that allows user to add, cross out and d
 * Edge
 * Internet Explorer 11
 
-**Author**
-:camel: Rina Ong-Oehme 
+**Author:**
+:camel: Rina Ong-Oehme
 
-**Acknowledgements**
-Matthew Wacha
-Treasure Kabareebe
+**Acknowledgements:**
+Matthew Wacha and Treasure Kabareebe
