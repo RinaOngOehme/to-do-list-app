@@ -1,17 +1,28 @@
-# to-do-list-app
+#**To-Do-List App**
 
-Project Objective:
-To build a small to-do-list application that allows user to add, cross out and delete items
+##Project Objectives
+To build a small to-do-list application that allows user to add, cross out and delete items.
 
-How to get the project going:
-Usage of HTML, CSS, Javascript and JQuery
-
-
-Dependencies:
-It must be formatted according to ESlint and Prettier rules
-
-Platforms:
-It should work in Chrome, Firefox, Safari, Edge and Internet Explorer 11
+![to_do_list_app png](img/to_do_list_app.png)
 
 
- 
+##Built With
+* HTML
+* CSS
+* Javascript
+* JQuery
+* Atom Editor
+
+##Platforms
+* Chrome
+* Firefox
+* Safari
+* Edge
+* Internet Explorer 11
+
+##Author
+Rina Ong-Oehme
+
+##Acknowledgements
+Matthew Wacha
+Treasure Kabareebe
