@@ -1,5 +1,3 @@
-//jshint esversion:6
-/* eslint-env jquery */
 function newItem() {
   //Add a new item to the list:
   let li = $('<li id="inputValue"></li>');
