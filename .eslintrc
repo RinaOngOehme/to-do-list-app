@@ -1,14 +1,15 @@
 {
-    "env": {
-        "es6": true,
-        "browser": true
-    },
-    "extends": [
-        "eslint:recommended"
-    ],
-    "rules": {
-        "quotes": ["error", "single"]
-    }
-    "error": {
-        "caughtErrors": "none" }
+  "env": {
+    "es6": true,
+    "browser": true,
+    "jquery": true,
+    "commonjs": true,
+  },
+  "extends": [
+    "eslint:recommended"
+  ],
+  "rules": {
+    "no-unused-vars": "off",
+    "quotes": ["error", "single"]
+  }
 }
