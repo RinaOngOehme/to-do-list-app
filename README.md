@@ -1,28 +1,28 @@
-#**To-Do-List App**
+#To-Do-List App
 
-##**Project Objectives**
+##Project Objectives
 To build a small to-do-list application that allows user to add, cross out and delete items.
 
 ![to_do_list_app png](img/to_do_list_app.png)
 
 
-##**Built With**
+##Built With
 * HTML
 * CSS
 * Javascript
 * JQuery
 * Atom Editor
 
-##**Platforms**
+##Platforms
 * Chrome
 * Firefox
 * Safari
 * Edge
 * Internet Explorer 11
 
-##**Author**
+##Author
 Rina Ong-Oehme
 
-##**Acknowledgements**
+##Acknowledgements
 Matthew Wacha
 Treasure Kabareebe
